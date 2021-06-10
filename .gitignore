@@ -4,7 +4,40 @@ nbproject
 /var
 /vendor
 /public/*
+#No Repository
 !/public/typo3conf
 /public/typo3conf/*
+#To Repository
 !/public/typo3conf/LocalConfiguration.php
 !/public/typo3conf/AdditionalConfiguration.php
+
+#####################################################
+#Staging of https://gitlab.com/duro-digital/knauber/-/blob/staging/.gitignore
+
+#ddev-generated: Automatically generated ddev .gitignore.
+# You can remove the above line if you want to edit and maintain this file yourself.
+public/fileadmin
+public/typo3temp
+public/typo3conf/*
+!public/typo3conf/ext/
+public/typo3conf/ext/*
+!public/typo3conf/ext/knauber100/
+!public/typo3conf/ext/pro_klima/
+!public/typo3conf/ext/bootstrap_grids/
+!public/typo3conf/ext/bootstrap_package/
+!public/typo3conf/ext/cart/
+!public/typo3conf/ext/cart_payone/
+!public/typo3conf/ext/cart_products/
+!public/typo3conf/ext/femanager/
+public/typo3
+public/index.php
+public/typo3conf/AdditionalConfiguration.php
+vendor/
+var/
+.idea/
+.ddev/
+!.ddev/config.yaml
+!.ddev/docker-compose.environment.yaml
+.env
+
+#####################################################
